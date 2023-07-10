@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header section style */
+header{
+    background-image: url("/css/images/banner/banner3.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    text-align: right;
+}
+.background-title-description{
+    width: 560px;
+    position: absolute;
+    right: 130px;
+    top: 35%;
+    color: #ffffff;
+}
+.background-title-description > h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.background-title-description > button{
+    margin-top: 25px;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.background-title-description > button > a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #005FAC;
+}
+
+
+/* banner-righting-and-img style */
+.main-content{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    align-items: center;
+}
+.banner-righting > h1{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 50px;
+}
+.banner-righting > p{
+    width: 450px;
+    margin-top: 30px;
+}
+.banner-righting{
+    padding: 0 90px;
+}
+.banner-righting > ul {
+    list-style: none;
+    margin-top: 25px;
+}
+.banner-righting > ul li{
+    line-height: 20px;
+}
+.banner-righting > ul li .fa-solid{
+    margin-right: 8px;
+    color: #16D887;
+}
+
+/* My Plans section style */
+.my-plans{
+    width: 75%;
+    margin: 90px auto;
+}
+.my-plans > h1{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2rem;
+}
+.parents{
+    display: flex;
+    justify-content: space-around;
+}
+.plans-logo-with-righting{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, .1);
+    padding: 30px 20px;
+    border-radius: 3px;
+    width: 230px;
+    height: 190px;
+}
+
+/* button banner of "My Plans */
+.button-banner{
+    background-image: url("images/watch.png"), url("images/gradient3.png");
+    background-blend-mode: overlay;
+    width: 75%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 20px auto;
+}
+.banner-righting-2{
+    color: #ffffff;
+    width: 20%;
+    position: absolute;
+    margin: 100px 40px 0;
+}
+.banner-righting-2 > h2{
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+.banner-righting-2 > button{
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.banner-righting-2 > button > a{
+    text-decoration: none;
+    color: #005FAC;
+    font-size: 17px;
+}
+
+
+/* footer section style */
+footer{
+    width: 100%;
+    height: 350px;
+    margin-top: 90px;
+    background:  #141313;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer-description-social-icons style */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+}
+.footer-description-social-icons{
+    padding: 0 40px;
+}
+.footer-description{
+    width: 550px;
+    margin-top: 15px;
+}
+.email{
+    margin-top: 15px;
+}
+.social-icons{
+    margin-top: 15px;
+}
+.social-icons img:not(:first-child){
+    margin-left: 10px;
+}
+
+/* subscribe part style */
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+}
+.subscribe > input{
+    margin-top: 15px;
+    width: 305px;
+    height: 25px;
+    background-color: #141313;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 16px;
+}
+.subscribe > button{
+    width: 120px;
+    height: 35px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.subscribe > button > a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #005FAC;
+}
