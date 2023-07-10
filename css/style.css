@@ -8,15 +8,13 @@
 
 /* header section style */
 header{
-    background-image: url("images/banner/banner3.png");
     background-position: center;
     background-size: cover;
-    width: 100%;
     height: 100vh;
     text-align: right;
 }
 .background-title-description{
-    width: 560px;
+    width: 500px;
     position: absolute;
     right: 130px;
     top: 35%;
